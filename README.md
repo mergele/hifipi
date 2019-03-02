@@ -25,4 +25,4 @@ sudo apt update && sudo apt upgrade -y
 ## Gehäuse / Holzarbeiten
 
 ## Quellen / Inspiration / ... 
-* 
+* Checking Raspberry Pi Board Version https://www.raspberrypi-spy.co.uk/2012/09/checking-your-raspberry-pi-board-version/
