@@ -26,3 +26,40 @@ sudo apt update && sudo apt upgrade -y
 
 ## Quellen / Inspiration / ... 
 * Checking Raspberry Pi Board Version https://www.raspberrypi-spy.co.uk/2012/09/checking-your-raspberry-pi-board-version/
+
+## MISC
+Inbetriebnahme Encoder KY 040 https://github.com/martinohanlon/KY040
+
+* https://volumio.org/forum/gpio-pins-control-volume-t2219.html
+* https://forum-raspberrypi.de/forum/thread/16127-volumio-mit-taster-steuern/
+* https://support.hifiberry.com/hc/en-us/community/posts/201843611-Hardware-Volume-Control#post-17420
+
+
+MPD
+http://manpages.ubuntu.com/manpages/precise/en/man1/mpc.1.html
+https://www.musicpd.org/doc/html/protocol.html
+https://mpd.fandom.com/wiki/Clients
+https://www.raspberrypi.org/forums/viewtopic.php?t=74466
+
+* VOLUMIO, https://nanomesher.com/use-as-volumio-control/
+* GPIO, https://sourceforge.net/projects/raspberry-gpio-python/
+* GPIO, https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png
+* ENCODER, https://www.adafruit.com/product/377
+
+
+* https://volumio.org/forum/getting-rotary-encoder-working-t9690.html
+
+* https://www.ebay.de/itm/Drehregler-KY-040-Rotary-Encoder-Drehgeber-Taster-Poti-Arduino-Raspberry-Pi-/162961349697
+* http://www.linkerkit.de/index.php?title=KY-040_Kodierter_Drehschalter_%28Rotary_Encoder%29
+* https://www.stuffaboutcode.com/2015/05/raspberry-pi-and-ky040-rotary-encoder.html
+* MISC, https://volumio.org/forum/interface-with-gpio-and-rs232-spi-t2192.html
+
+* HIFIBERRY Forum, 
+* HIFIBERRY Forum, https://www.hifiberry.com/build/documentation/gpio-usage-of-hifiberry-boards/
+* HIFIBERRY Forum, https://support.hifiberry.com/hc/en-us/community/posts/201492812-free-Pins-GPIO-Amp-for-Ver-A-B-
+* HIFIBERRY Forum, https://support.hifiberry.com/hc/en-us/community/posts/201494692-Woodware
+* HIFIBERRY Forum, https://support.hifiberry.com/hc/en-us/community/posts/360000691765-New-Hifiberry-project-with-AMP2
+* HIFIBERRY Forum, https://support.hifiberry.com/hc/en-us/community/posts/201843611-Hardware-Volume-Control#post-17420
+* HIFIBERRY Forum, https://support.hifiberry.com/hc/en-us/community/posts/201494692-Woodware?page=2#comments
+* HIFIBERRY Forum, https://support.hifiberry.com/hc/en-us/community/posts/205753859-Amp-Hardware-Volume-Control-
+* http://www.iknowthe.net/blog/raspberry-pi-volumio-song-gpio-button.html
