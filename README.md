@@ -1,4 +1,5 @@
 # hifipi
+Testeintrag
 Projektdokumentation für eine Musikbox mit einem Raspberrypi, Hifiberry AMP. Einbau zusammen mit Lautsprechern und Steuerelementen (Drehencoder für Lautstärke / Auswahl, Buttons für Steuerung)
 
 ## Material / Komponenten
@@ -54,6 +55,7 @@ sudo apt install git
 ---
 ## MISC / Unsorted / Noch dokumentieren / Sortieren todo...
 Sammlung sonstiger Links / Quellen / Anleitungen / ...
+* https://volumio.github.io/docs/API/REST_API.html
 * https://github.com/Mic92/python-mpd2
 * Entprellen, https://github.com/foxey/volumio-buddy/blob/master/volumio_buddy_schematics.png
 * Inbetriebnahme Encoder KY 040 https://github.com/martinohanlon/KY040
