@@ -31,8 +31,17 @@ sudo apt install git
 
 ### Python Control Script
 #### Encoder
-Inbetriebnahme mit dem Script von https://www.stuffaboutcode.com/2015/05/raspberry-pi-and-ky040-rotary-encoder.html, test-encoder.py
-   
+* Inbetriebnahme mit dem Script von https://www.stuffaboutcode.com/2015/05/raspberry-pi-and-ky040-rotary-encoder.html, test-encoder.py
+* Python und MPD, https://www.stuffaboutcode.com/2015/04/python-mpd-and-volumio.html   
+
+* https://volumio.github.io/docs/API/REST_API.html
+
+#### Socket.IO API
+* https://volumio.github.io/docs/API/WebSocket_APIs
+* https://pypi.org/project/python-socketio/
+* https://python-socketio.readthedocs.io/en/latest/
+
+
 ## Gehäuse / Holzarbeiten
 
 ## Quellen / Inspiration / ... 
@@ -43,8 +52,10 @@ Inbetriebnahme mit dem Script von https://www.stuffaboutcode.com/2015/05/raspber
 
 
 ---
-## MISC / Unsorted / ...
+## MISC / Unsorted / Noch dokumentieren / Sortieren todo...
 Sammlung sonstiger Links / Quellen / Anleitungen / ...
+* https://github.com/Mic92/python-mpd2
+* Entprellen, https://github.com/foxey/volumio-buddy/blob/master/volumio_buddy_schematics.png
 * Inbetriebnahme Encoder KY 040 https://github.com/martinohanlon/KY040
 * https://volumio.org/forum/gpio-pins-control-volume-t2219.html
 * https://forum-raspberrypi.de/forum/thread/16127-volumio-mit-taster-steuern/
