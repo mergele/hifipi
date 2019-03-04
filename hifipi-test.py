@@ -1,10 +1,18 @@
-#KY040 Python Class
-#Martin O'Hanlon
-#stuffaboutcode.com
+# -----------------------------------------------------------------------------
+# hifipi-test - test to access the basic volumio functions for 
+# * volume and playback control
+# * playlist selection
+# in order to build a simple button and rotation-encoder based player for my
+# little daugter
+# -----------------------------------------------------------------------------
+#                             C R E D I T S
+# -----------------------------------------------------------------------------
+# Great thanks to Martin O'Hanlon, stuffaboutcode.com for supporting me with 
+# the KY040 Python Class which helped me to quickstart into python :_) 
+# -----------------------------------------------------------------------------
 import os
 import RPi.GPIO as GPIO
 from time import sleep
-from mpd import MPDClient
 
 class KY040:
     global volume
