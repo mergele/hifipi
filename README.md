@@ -36,12 +36,14 @@ Inbetriebnahme mit dem Script von https://www.stuffaboutcode.com/2015/05/raspber
 ## Gehäuse / Holzarbeiten
 
 ## Quellen / Inspiration / ... 
+* GPIO Layout, https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png
+* Vom Hifiberry AMP2 bereits benutzte Pins, https://www.hifiberry.com/build/documentation/gpio-usage-of-hifiberry-boards/
 * Checking Raspberry Pi Board Version https://www.raspberrypi-spy.co.uk/2012/09/checking-your-raspberry-pi-board-version/
 * Github Markdown Cheatsheet, https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-* GPIO Layout, https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png
+
 
 ---
-## MISC
+## MISC / Unsorted / ...
 Sammlung sonstiger Links / Quellen / Anleitungen / ...
 * Inbetriebnahme Encoder KY 040 https://github.com/martinohanlon/KY040
 * https://volumio.org/forum/gpio-pins-control-volume-t2219.html
