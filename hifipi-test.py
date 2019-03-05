@@ -10,28 +10,32 @@
 # Great thanks to Martin O'Hanlon, stuffaboutcode.com for supporting me with 
 # the KY040 Python Class which helped me to quickstart into python :_) 
 # -----------------------------------------------------------------------------
+# vim :set ts=4 sw=4 sts=4 et :
 import os
 import RPi.GPIO as GPIO
 from time import sleep
 
 class KY040:
-    global volume
     CLOCKWISE = 0
     ANTICLOCKWISE = 1
     
     def __init__(self, clockPin, dataPin, switchPin,
                  rotaryCallback, switchCallback):
         #persist values
+		self.playPin = playPin
         self.clockPin = clockPin
         self.dataPin = dataPin
         self.switchPin = switchPin
+
         self.rotaryCallback = rotaryCallback
         self.switchCallback = switchCallback
-
+				
+		
         #setup pins
         GPIO.setup(clockPin, GPIO.IN)
         GPIO.setup(dataPin, GPIO.IN)
         GPIO.setup(switchPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+		GPIO.setup(playPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
     def start(self):
         GPIO.add_event_detect(self.clockPin,
@@ -61,9 +65,8 @@ class KY040:
 
 #test
 if __name__ == "__main__":
-    
-    mutestate = 0
 
+    mutestate = 0	
     CLOCKPIN = 5
     DATAPIN = 6
     SWITCHPIN = 13
@@ -86,6 +89,17 @@ if __name__ == "__main__":
             os.system("curl 'localhost:3000/api/v1/commands/?cmd=volume&volume=unmute'")
        
         print "mute/unmute button pressed"
+
+	def switchPlayPressed():
+		print "button play/pause pressed"
+
+
+	def switchNextPressed():
+		print "button next pressed"
+
+
+	def switchPrevPressed():
+		print "button previous pressed"
 
 
     GPIO.setmode(GPIO.BCM)
