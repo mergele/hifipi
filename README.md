@@ -30,6 +30,9 @@ sudo apt install git
 
 ### AMP+
 
+### Volumio
+* https://support.hifiberry.com/hc/en-us/community/posts/360002286557-AMP2-Settings-with-Volumio
+
 ### Python Control Script
 #### Encoder
 * Inbetriebnahme mit dem Script von https://www.stuffaboutcode.com/2015/05/raspberry-pi-and-ky040-rotary-encoder.html, test-encoder.py
